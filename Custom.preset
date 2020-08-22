@@ -1,0 +1,26 @@
+##########
+# Win 10 / Server 2016 / Server 2019 Initial Setup Script - Custom preset
+# Author: 沉冰浮水 <wdssmq@qq.com>
+# Version: v3.10, 2020-07-15
+# Source: https://github.com/wdssmq/Win10-Initial-Setup-Script
+##########
+
+### Require administrator privileges ###
+RequireAdmin
+
+### UI Tweaks ###
+EnableActionCenter             # DisableActionCenter
+HideTrayIcons                  # ShowTrayIcons
+
+### Explorer UI Tweaks ###
+ShowQuickAccess                 # HideQuickAccess
+ShowDesktopInThisPC             # HideDesktopFromThisPC
+ShowDocumentsInThisPC           # HideDocumentsFromThisPC
+ShowDownloadsInThisPC           # HideDownloadsFromThisPC
+ShowMusicInThisPC               # HideMusicFromThisPC
+ShowPicturesInThisPC            # HidePicturesFromThisPC
+ShowVideosInThisPC              # HideVideosFromThisPC
+
+### Auxiliary Functions ###
+WaitForKey
+# Restart
